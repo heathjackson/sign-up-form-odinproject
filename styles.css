@@ -13,18 +13,18 @@ body {
 
 .container {
   display: flex;
-  gap: 30px;
-  margin: 30px 30px;
+  gap: 25px;
+  margin: 0px 30px;
 }
 
 .title {
   min-width: 40vw;
+  position: relative;
 }
 
 img {
   height: 100vh;
   width: 100%;
-  position: relative;
 }
 
 h1 {
@@ -63,6 +63,7 @@ form {
 
 main {
   margin-top: 75px;
+  position: relative;
 }
 
 main p{
@@ -95,6 +96,17 @@ input:not(:placeholder-shown):valid {
 
 input:not(:placeholder-shown):invalid {
   border: 2px solid rgb(233,105,60);
+}
+
+#error {
+  font-size: 15px;
+  max-width: 20vw;
+  color: rgb(233,105,60);
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 15%;
 }
 
 button {
